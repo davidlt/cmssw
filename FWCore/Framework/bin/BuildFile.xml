@@ -1,4 +1,5 @@
 <bin   name="cmsRunGlibC" file="cmsRun.cpp">
+  <flags CXXFLAGS="-static-libasan"/>
   <use   name="roothistmatrix"/>
   <use   name="tbb"/>
   <use   name="boost"/>
@@ -13,6 +14,7 @@
   <use   name="FWCore/PythonParameterSet"/>
 </bin>
 <bin   name="cmsRunTC" file="cmsRun.cpp">
+  <flags CXXFLAGS="-static-libasan"/>
   <use   name="tbb"/>
   <use   name="boost"/>
   <use   name="boost_program_options"/>
@@ -27,6 +29,7 @@
   <use   name="FWCore/PythonParameterSet"/>
 </bin>
 <bin   name="cmsRun" file="cmsRun.cpp">
+  <flags CXXFLAGS="-static-libasan"/>
   <use   name="tbb"/>
   <use   name="boost"/>
   <use   name="boost_program_options"/>
@@ -41,6 +44,7 @@
   <use   name="FWCore/PythonParameterSet"/>
 </bin>
 <bin   name="cmsRunVDT" file="cmsRun.cpp">
+  <flags CXXFLAGS="-static-libasan"/>
   <use   name="vdt"/>
   <use   name="tbb"/>
   <use   name="boost"/>
