@@ -1,0 +1,6 @@
+import FWCore.ParameterSet.Config as cms
+
+##____________________________________________________________________________||
+from JetMETCorrections.Type1MET.caloMETCorrections_Old_cff import *
+
+##____________________________________________________________________________||

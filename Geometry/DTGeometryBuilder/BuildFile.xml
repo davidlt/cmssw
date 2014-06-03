@@ -1,0 +1,10 @@
+ <use name="DataFormats/GeometrySurface"/>
+ <use name="DataFormats/MuonDetId"/>
+ <use name="DetectorDescription/Core"/>
+ <use name="Geometry/DTGeometry"/>
+ <use name="Geometry/MuonNumbering"/>
+ <use name="clhep"/>
+ <use name="boost_serialization"/>
+<export>
+ <lib name="GeometryDTGeometryBuilder"/>
+</export>
