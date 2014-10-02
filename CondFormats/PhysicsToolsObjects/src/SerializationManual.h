@@ -1,4 +1,4 @@
-
+#include "CondFormats/Serialization/interface/Archive.h"
 #include "boost/serialization/assume_abstract.hpp"
 
 // take care of instantiating the concrete templates:

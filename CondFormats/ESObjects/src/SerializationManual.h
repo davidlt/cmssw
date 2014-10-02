@@ -1,3 +1,4 @@
+#include "CondFormats/Serialization/interface/Archive.h"
 COND_SERIALIZATION_INSTANTIATE(ESCondObjectContainer<ESChannelStatusCode>);
 COND_SERIALIZATION_INSTANTIATE(ESCondObjectContainer<ESPedestal>);
 COND_SERIALIZATION_INSTANTIATE(ESCondObjectContainer<ESStripGroupId>);

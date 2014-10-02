@@ -9,8 +9,6 @@
 // Archive headers are needed here for the serialization registration to work.
 // <cassert> is needed for the archive headers to work.
 #include <cassert>
-#include "CondFormats/Serialization/interface/eos/portable_iarchive.hpp"
-#include "CondFormats/Serialization/interface/eos/portable_oarchive.hpp"
 
 #include "DataFormats/HcalDetId/interface/HcalDetId.h"
 

@@ -1,11 +1,6 @@
 #pragma once
 
-// The archives must be listed before any boost/serialization header.
-// Otherwise, in some cases the export macros trigger compilation errors.
-#include "CondFormats/Serialization/interface/Archive.h"
-
 #include <boost/serialization/access.hpp>
-
 #include <boost/serialization/string.hpp>
 #include <boost/serialization/vector.hpp>
 #include <boost/serialization/list.hpp>

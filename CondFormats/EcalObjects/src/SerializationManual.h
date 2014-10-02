@@ -1,3 +1,4 @@
+#include "CondFormats/Serialization/interface/Archive.h"
 COND_SERIALIZATION_INSTANTIATE(EcalCondObjectContainer<EcalChannelStatusCode>);
 COND_SERIALIZATION_INSTANTIATE(EcalCondObjectContainer<EcalDQMStatusCode>);
 COND_SERIALIZATION_INSTANTIATE(EcalCondObjectContainer<EcalLaserAPDPNRatios::EcalLaserAPDPNpair>);
@@ -13,4 +14,3 @@ COND_SERIALIZATION_INSTANTIATE(EcalCondObjectContainer<float>);
 COND_SERIALIZATION_INSTANTIATE(EcalCondTowerObjectContainer<EcalChannelStatusCode>);
 COND_SERIALIZATION_INSTANTIATE(EcalCondTowerObjectContainer<EcalDAQStatusCode>);
 COND_SERIALIZATION_INSTANTIATE(EcalCondTowerObjectContainer<EcalDQMStatusCode>);
-

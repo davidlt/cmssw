@@ -1,12 +1,11 @@
 // Implementation of class EcalShowerContainmentCorrections
 // Author: Stefano Argiro'
-// $Id: EcalShowerContainmentCorrections.cc,v 1.1 2007/05/15 20:37:22 argiro Exp $
 
 #include "CondFormats/EcalCorrections/interface/EcalShowerContainmentCorrections.h"
 #include <DataFormats/EcalDetId/interface/EBDetId.h>
 #include <FWCore/MessageLogger/interface/MessageLogger.h>
-//#include <iostream>
 
+#define NO_EXPLICIT_TEMPLATE_INSTANTIATION
 #include "CondCore/CondDB/interface/Serialization.h"
 #include "CondFormats/External/interface/EcalDetID.h"
 
