@@ -1,0 +1,396 @@
+module "FWCore_Version" {
+  requires cplusplus11
+  umbrella "FWCore/Version/interface"
+  module * {
+    export *
+  } 
+}
+module "FWCore_MessageService" {
+  requires cplusplus11
+  umbrella "FWCore/MessageService/interface"
+  module * {
+    export *
+  } 
+}
+module GNU_CPP_STL {
+  module "FWCore/GNUCppStandardLibrary/interface/algorithm" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/algorithm"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/array" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/array"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/atomic" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/atomic"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/bitset" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/bitset"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cassert" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cassert"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ccomplex" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ccomplex"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cctype" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cctype"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cerrno" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cerrno"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cfenv" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cfenv"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cfloat" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cfloat"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/chrono" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/chrono"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cinttypes" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cinttypes"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ciso646" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ciso646"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/climits" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/climits"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/clocale" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/clocale"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cmath" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cmath"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/complex" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/complex"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/complex.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/complex.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/condition_variable" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/condition_variable"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/csetjmp" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/csetjmp"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/csignal" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/csignal"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdalign" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdalign"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdarg" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdarg"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdbool" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdbool"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstddef" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstddef"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdint" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdint"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdio" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdio"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstdlib" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstdlib"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cstring" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cstring"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ctgmath" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ctgmath"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ctime" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ctime"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ctype.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ctype.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cwchar" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cwchar"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cwctype" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cwctype"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/cxxabi.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/cxxabi.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/deque" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/deque"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/exception" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/exception"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/fenv.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/fenv.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/forward_list" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/forward_list"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/fstream" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/fstream"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/functional" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/functional"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/future" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/future"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/hash_map" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/hash_map"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/hash_set" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/hash_set"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/initializer_list" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/initializer_list"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/iomanip" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/iomanip"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ios" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ios"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/iosfwd" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/iosfwd"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/iostream" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/iostream"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/istream" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/istream"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/iterator" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/iterator"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/limits" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/limits"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/list" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/list"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/locale" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/locale"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/locale.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/locale.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/map" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/map"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/math.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/math.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/memory" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/memory"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/mutex" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/mutex"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/new" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/new"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/numeric" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/numeric"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ostream" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ostream"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/queue" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/queue"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/random" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/random"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ratio" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ratio"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/regex" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/regex"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/scoped_allocator" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/scoped_allocator"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/set" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/set"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/setjmp.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/setjmp.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/sstream" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/sstream"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/stack" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/stack"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/stdexcept" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/stdexcept"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/streambuf" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/streambuf"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/string" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/string"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/string.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/string.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/system_error" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/system_error"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/tgmath.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/tgmath.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/thread" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/thread"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/tuple" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/tuple"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/type_traits" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/type_traits"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/typeindex" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/typeindex"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/typeinfo" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/typeinfo"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/unordered_map" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/unordered_map"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/unordered_set" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/unordered_set"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/utility" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/utility"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/valarray" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/valarray"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/vector" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/vector"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/experimental/algorithm" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/experimental/algorithm"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ext/functional" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ext/functional"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ext/hash_map" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ext/hash_map"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ext/hash_set" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ext/hash_set"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/ext/numeric" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/ext/numeric"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/bits/exception_defines.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/bits/exception_defines.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/bits/ios_base.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/bits/ios_base.h"
+  }
+  module "FWCore/GNUCppStandardLibrary/interface/bits/locale_facets.h" {
+    export *
+    header "FWCore/GNUCppStandardLibrary/interface/bits/locale_facets.h"
+  }
+}
