@@ -3,7 +3,7 @@
 
 #include "FWCore/Framework/interface/ConsumesCollector.h"
 #include "CommonTools/UtilAlgos/interface/EventSelector.h"
-#include "CommonTools/UtilAlgos/interface/InputTagDistributor.h"
+#include "PhysicsTools/UtilAlgos/interface/InputTagDistributor.h"
 #include "CommonTools/Utils/interface/StringCutObjectSelector.h"
 #include "CommonTools/Utils/interface/StringObjectFunction.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
